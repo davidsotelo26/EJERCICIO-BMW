@@ -1,0 +1,151 @@
+.main{
+    background-color: black;
+    color:white;
+    width: 100%;
+    height:80vh;
+
+    &__menu {
+        border-top: solid 1px grey;
+        border-bottom: solid 1px grey;
+        width: 100vw;
+        height: 8vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 20px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        &__clases {
+            display:flex;
+
+            &__tipo {
+                margin: 0vh 5vw;
+            }
+        }
+    }
+
+    &__articulos {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        padding-bottom: 5vh;
+        
+        &__coche{
+            width: 300PX;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+
+            &__caption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+        }
+    }
+
+.titulonewsletter {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: la200pxrge;
+    color: white;
+    width: 100vw;
+    height: 2vh;
+    text-align: center;
+    border-top: solid 1px grey;
+    padding-top: 1.5vh;
+}
+
+    &__newsletter {
+        border-bottom: solid 1px grey;
+        font-size: 20px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        width: 100vw;
+        height: 30vh;
+        display: flex;
+        justify-content: space-around;
+
+        &__seccion {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            margin: 0vh 5vw;
+
+            &__noticia {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 20vw;
+                padding:20px;
+                border: solid 1px grey;
+                border-radius:5%;
+
+                &__piefoto {
+                    text-align: center;
+
+                    &__texto{
+                        font-size: small
+                    }
+                }
+
+                &__foto{
+                    padding-bottom: 2vh;
+                }
+                }
+            }
+        }
+
+        .titulocontent {
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 30px;
+            color: white;
+            width: 100vw;
+            height: 2vh;
+            text-align: center;
+            border-top: solid 1px grey;
+            padding-top: 1.5vh;
+        }
+
+        &__content{
+
+            width: 100vw;
+            height: 40vh;
+
+            &__seccion {
+                background-color: black;
+                border-bottom: solid 1px grey;
+                font-size: 20px;
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                width: 100vw;
+                height: 40vh;
+                display: flex;
+                justify-content: space-around;
+                padding-top: 5vh;
+                padding-bottom: 5vh;
+            
+                &__cuadro {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+    
+                    &__piefoto {
+                        text-align: center;
+                        padding-top: 2vh;
+    
+                        &__texto{
+                            font-size: small
+                        }
+                    }
+    
+                    &__foto{
+                        padding-bottom: 2vh;
+                    }
+                    }
+        }
+    }
+
+    .fotocontent {
+        width: 30vw;
+    }
+}

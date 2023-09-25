@@ -1,0 +1,34 @@
+.footer{
+    background-color: black;
+    color:white;
+    padding-top:10vh;
+    padding-bottom:10vh;
+    border-top: 1px solid grey;
+
+    &__menu {
+        display:flex;
+        justify-content: space-around;
+        padding-top: 5vh;
+        padding-bottom: 2vh;
+
+        &__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        }
+    }
+
+    &__nav {
+        padding-top: 2vh;
+        padding-bottom: 5vh;
+        border-top: solid 1px grey;
+        display:flex;
+        justify-content: space-around;
+    }
+
+.desplegable{
+    background-color: black;
+    color:white;
+}
+
+}
